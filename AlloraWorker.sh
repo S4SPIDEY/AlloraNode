@@ -116,7 +116,7 @@ while true; do
 done
 
 # Download docker-compose.yml
-curl -o docker-compose.yml https://gist.githubusercontent.com/NodeFarmer/53758da8294f821808b9afc8ff994ce7/raw/docker-compose.yml
+curl -o docker-compose.yml https://raw.githubusercontent.com/S4SPIDEY/AlloraNode/main/docker-compose.yml
 
 # Replace placeholders in docker-compose.yml
 sed -i "s/%head_id%/$HEAD_ID/g" docker-compose.yml
